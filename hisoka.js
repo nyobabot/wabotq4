@@ -85,7 +85,7 @@ const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289635867363-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Selamat datang di bot mahir', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 
 //END
 	try {
@@ -572,6 +572,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 ⭔ Ortu Saya.
 ⭔ DikaArdnt (Author).
 ⭔ Sanzy YT.
+⭔ Mahir A   
 ⭔ Fatih A.
 ⭔ Nurutomo.
 ⭔ Mhankbarbar.
@@ -588,11 +589,6 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 • Wit : ${wit}
 • Wita : ${wita}`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -807,16 +803,14 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 
 📚 *Base : Dika Ardnt* 
 
-https://github.com/DikaArdnt/Hisoka-Morou
 
+🌱 Recode By : Mahir
 
-🌱 Recode By : Sanzy YT
-
-https://youtube.com/c/SanzyYT`
+https://mhrarrydl.blogspot.com`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: 'https://youtube.com/c/SanzyYT'
+                                    displayText: 'My Blog',
+                                    url: 'https://mhrarrydl.blogspot.com'
                                 }
                             }]
                 hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
@@ -878,10 +872,10 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Sanzy`,
-                        "url": "wa.me/6281276698054"
+                        "retailerId": `Mahir`,
+                        "url": "wa.me/6289635867363"
                     },
-                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
+                    "businessOwnerJid": "6289635867363@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1471,11 +1465,6 @@ break
                 for (let i of anu) {
                     await sleep(1500)
                     let btn = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -1510,11 +1499,6 @@ break
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3543,11 +3527,6 @@ case 'searchmenu': case 'menusearch': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3635,11 +3614,6 @@ case 'randomimagemenu': case 'menurandomimage': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3740,11 +3714,6 @@ case 'wibumenu': case 'menuwibu': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3802,11 +3771,6 @@ case 'asupanmenu': case 'menuasupan': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3879,12 +3843,7 @@ case 'randomtextmenu': case 'menurandomtext': {
 │⭔ ${prefix}jagokata
 │
 └───────⭓`
-                let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
+                let button = [ {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3945,11 +3904,6 @@ case 'randommenu': case 'menurandom': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -3995,11 +3949,6 @@ case 'commentmenu': case 'menucomment': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4050,12 +3999,7 @@ case 'sertifikatmenu': case 'menusertifikat': {
 │⭔ ${prefix}pacarserti
 │
 └───────⭓`
-                let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
+                let button = [ {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4177,11 +4121,6 @@ case 'textpromenu': case 'menutextpro': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4251,11 +4190,6 @@ case 'photooxymenu': case 'menuphotooxy': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4347,11 +4281,6 @@ case 'photomakermenu': case 'menuphotomaker': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4428,11 +4357,6 @@ case 'stickermenu': case 'stikermenu': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4526,11 +4450,6 @@ case 'ephotomenu': case 'menuephoto': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4588,11 +4507,6 @@ case 'funmenu': case 'menufun': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4665,11 +4579,6 @@ case 'primbonmenu': case 'menuprimbon': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4728,11 +4637,6 @@ case 'convertmenu': case 'menuconvert': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4784,11 +4688,6 @@ case 'mainmenu': case 'menumain': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4840,11 +4739,6 @@ case 'databasemenu': case 'menudatabase': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4893,11 +4787,6 @@ case 'anonymousmenu': case 'menuanonymous': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -4957,11 +4846,6 @@ case 'islamicmenu': case 'menuislamic': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -5016,11 +4900,6 @@ case 'voicemenu': case 'menuvoice': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -5068,11 +4947,6 @@ case 'stalkmenu': case 'menustalk': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -5125,11 +4999,6 @@ case 'ownermenu': case 'menuowner': {
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -5175,11 +5044,6 @@ Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Ow
                             jpegThumbnail: fs.readFileSync('./lib/hisoka.jpg')},
                             hydratedFooterText: `© ${global.namabot}`,
                             hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -5929,11 +5793,6 @@ break
 │
 └───────⭓`
                 let button = [{
-                                urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: global.myweb
-                                }
-                            }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
                                     phoneNumber: global.owner[0]
@@ -6021,7 +5880,7 @@ break
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 		}
         }
-     if (budy.includes('6281276698054')) {  
+     if (budy.includes('6289635867363')) {  
 hisoka.sendMessage(m.chat, {text: 'Ada Apa Ya Tags Owner Saya'}, {quoted: ftroli})
 	  }	     
 
